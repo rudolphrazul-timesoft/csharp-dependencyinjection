@@ -14,7 +14,7 @@ namespace csharp_dependencyinjection
             _leaveRepository = leaveRepository;
         }
 
-        public async Task<Employee> GetDataByEmployeeId(int employeeId)
+        public async Task<Employee> GetInfoWithLeaveDataByEmployeeId(int employeeId)
         {
             var employee = new Employee();
             employee = await _employeeRepository.GetById(employeeId);

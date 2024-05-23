@@ -4,6 +4,6 @@ namespace csharp_dependencyinjection
 {
     public interface IEmployeeService
     {
-        Task<Employee> GetDataByEmployeeId(int employeeId);
+        Task<Employee> GetInfoWithLeaveDataByEmployeeId(int employeeId);
     }
 }

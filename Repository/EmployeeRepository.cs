@@ -9,7 +9,7 @@ namespace csharp_dependencyinjection.Repository
             await Task.Delay(100); //simulating async delay
             return new Employee
             {
-                Id = 1,
+                Id = id,
                 FirstName = "John",
                 LastName = "Doe",
                 Title = "IT Manager"
